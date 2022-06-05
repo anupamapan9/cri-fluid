@@ -16,8 +16,13 @@ header {
     align-items: center;
 }
 
+ul {
+    padding-left: 25px;
+    list-style-position: inside;
+}
+
 header .award__img img {
-    width: 500px;
+    width: 450px;
 }
 
 .header__right img {
