@@ -29,3 +29,16 @@ header .award__img img {
     width: 100%;
     margin-top: 15px;
 }
+
+
+
+/* ================ mobile=================== */
+@media screen and (max-width:600px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    header .award__img img {
+        width: 300px;
+    }
+}

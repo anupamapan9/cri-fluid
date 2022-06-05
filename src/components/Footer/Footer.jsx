@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import { BsFacebook, BsTelephoneFill } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
 import { TbWorld } from 'react-icons/tb';
 import { FaPhoneAlt } from 'react-icons/fa';
 const Footer = () => {

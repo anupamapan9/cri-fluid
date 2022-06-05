@@ -1,4 +1,9 @@
 body {
   background-image: linear-gradient(180deg, #ffffff, #FFF9B1);
+}
 
+@media screen and (max-width:600px) {
+  body {
+    padding: 0 5px;
+  }
 }

@@ -2,7 +2,7 @@ footer {
     background: rgb(209, 46, 46);
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    min-height: 100px;
     align-items: center;
 }
 
@@ -32,4 +32,13 @@ footer a {
 .social__link {
     display: flex;
     align-items: center;
+}
+
+/* ================ mobile=================== */
+@media screen and (max-width:600px) {
+    footer {
+        padding: 20px 0;
+        flex-direction: column;
+        gap: 5px;
+    }
 }
